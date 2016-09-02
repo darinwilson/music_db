@@ -2,6 +2,8 @@
 
 **A playground for Ecto using a simple music database**
 
+[Slides for my talk are here](https://dl.dropboxusercontent.com/u/14884175/leveling_up_with_ecto.pdf)
+
 ## Requirements
   * Elixir >= 1.2
   * Postgres >= 9.0
