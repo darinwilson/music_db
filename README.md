@@ -2,7 +2,7 @@
 
 **A playground for Ecto using a simple music database**
 
-[Slides for my talk are here](https://dl.dropboxusercontent.com/u/14884175/leveling_up_with_ecto.pdf)
+I created this repo to have examples for my talk at ElixirConf 2016, "Leveling Up With Ecto". The video is available [here](https://www.youtube.com/watch?v=QE7bpqpDoKo) and [the slides are here.](https://dl.dropboxusercontent.com/u/14884175/leveling_up_with_ecto.pdf)
 
 ## Requirements
   * Elixir >= 1.2
