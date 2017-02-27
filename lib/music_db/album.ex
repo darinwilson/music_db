@@ -4,7 +4,7 @@ defmodule MusicDb.Album do
 
   schema "albums" do
     field :title
-    timestamps
+    timestamps()
 
     belongs_to :artist, Artist
     has_many :tracks, Track

@@ -35,11 +35,10 @@ defmodule Playground do
   #
   ##############################################
   def play do
-    min_duration = 600
-    query = from t in "tracks",
-      join: a in "albums", on: t.album_id == a.id,
-      where: t.duration > ^min_duration,
-      select: [t.id, t.title, a.title]
+    query = "tracks"
+    |> join(:inner, [t], a in "albums", t.album_id == a.id)
+    |> where([t,a], t.duration > 600)
+    |> select([t,a], [t.id, t.title, a.title])
     Repo.all(query)
   end
 

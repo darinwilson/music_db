@@ -3,7 +3,7 @@ defmodule MusicDb.Artist do
 
   schema "artists" do
     field :name
-    timestamps
+    timestamps()
 
     has_many :albums, MusicDb.Album
   end

@@ -5,7 +5,7 @@ defmodule EctoCookbook.Repo.Migrations.CreateAlbums do
     create table(:albums) do
       add :title, :string, null: false
       add :artist_id, references(:artists, on_delete: :nothing)
-      timestamps
+      timestamps()
     end
     create index(:albums, [:artist_id])
   end

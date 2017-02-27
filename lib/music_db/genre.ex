@@ -4,7 +4,7 @@ defmodule MusicDb.Genre do
 
   schema "genres" do
     field :name
-    timestamps
+    timestamps()
 
     many_to_many :albums, Album, join_through: "albums_genres"
   end

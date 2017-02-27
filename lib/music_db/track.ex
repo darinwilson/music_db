@@ -7,7 +7,7 @@ defmodule MusicDb.Track do
     field :duration, :integer
     field :index, :integer
     field :number_of_plays, :integer
-    timestamps
+    timestamps()
 
     belongs_to :album, Album
   end
