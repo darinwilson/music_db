@@ -37,7 +37,7 @@ defmodule MusicDb.Mixfile do
   defp deps do
     [
       {:postgrex, ">= 0.0.0"},
-      {:ecto, "~> 2.0.0"},
+      {:ecto, "~> 2.1"},
       {:ex_doc, "~> 0.13"}
     ]
   end
